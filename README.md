@@ -17,19 +17,19 @@ http://www.sublimetext.com/
   2.4 再起動．以降[cntl]+[shift]+[p]でコマンドパレットを呼び出す．  
   2.5 `Install Package` を選択．
 
-3. 日本語化
-  3.1 ターミナルにて
+3. 日本語化  
+  3.1 ターミナルにて  
     ```
     sudo apt install ibus-mozc
     ibus-daemon -drx
     ibus-setup
     sudo apt install emacs-mozc
     ```
-  3.2 Sublime コマンドパレットにて
-    `Add Repository`を選択し，https://github.com/yasuyuky/SublimeMozcInput を入力．
+  3.2 Sublime コマンドパレットにて  
+    `Add Repository`を選択し，https://github.com/yasuyuky/SublimeMozcInput を入力．  
     `Install Package` `sublimeMozcInput`をインストール
 
-4. 追加パッケージ一覧
+4. 追加パッケージ一覧  
 ALL Autocomplete  
 AutoFileName  
 GitGutter 
@@ -37,7 +37,7 @@ ConvertToUTF8
 SublimeCodeIntel  
 Cmake  
 
-5. Preferences>Settings
+5. Preferences>Settings  
 ```
 {
   "bold_folder_labels": true,
@@ -91,7 +91,7 @@ git config -global user.mail hoge@hoge
 
 ## terminator
 `sudo apt install terminator`  
-好みのプロファイルを設定してレイアウトとともに保存しておく．
+好みのプロファイルを設定してレイアウトとともに保存しておく．  
 `echo "alias ympterm="terminator -l ymp&exit" "`
 
 ## trouble shoot
