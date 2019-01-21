@@ -90,18 +90,29 @@ sudo apt install git-core
 sudo apt install git 
 git config -global user.name hoge
 git config -global user.mail hoge@hoge
+cd ~/.ssh
+ssh-keygen -t rsa
+
+```
+長い
+
+## cmake
+```
+https://cmake.org/download/  
+tar xvf cmake-3.*.*.tar.gz  
+./bootstrap && make && make install
 ```
 
-## terminator
+## terminator  
 `sudo apt install terminator`  
 好みのプロファイルを設定してレイアウトとともに保存しておく．  
 `echo "alias ympterm="terminator -l ymp&exit" "`
 
 ## trouble shoot
-### 画面の解像度がおかしい！
+### 画面の解像度がおかしい！  
 ディスプレイの倍率を確認しよう．2.24になってる可能性がある．
 
-### フォントサイズが大きい
+### フォントサイズが大きい  
 "unity tweek tool"をインストールし，フォントサイズを変更
 
 
