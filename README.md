@@ -5,6 +5,9 @@
 ## language
 "LANG=C xdg-user-dirs-gtk-update"
 
+## 補完で大文字小文字の区別をなくす
+`echo "set completion-ignore-case on" >> ~/.inputrc`
+
 ## Sublime Text 3
 1. インストーラのダウンロード,インストール  
 http://www.sublimetext.com/  
@@ -100,3 +103,5 @@ git config -global user.mail hoge@hoge
 
 ### フォントサイズが大きい
 "unity tweek tool"をインストールし，フォントサイズを変更
+
+
