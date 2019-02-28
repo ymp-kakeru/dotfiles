@@ -98,7 +98,7 @@ ssh-keygen -t rsa
 
 ## cmake
 ```
-https://cmake.org/download/  
+wget https://cmake.org/files/v3.6/cmake-3.6.2.tar.gz
 tar xvf cmake-3.*.*.tar.gz  
 ./bootstrap && make && make install
 ```
@@ -106,13 +106,13 @@ tar xvf cmake-3.*.*.tar.gz
 ## terminator  
 `sudo apt install terminator`  
 好みのプロファイルを設定してレイアウトとともに保存しておく．  
-`echo "alias ympterm="terminator -l ymp&exit" "`
+`echo "alias ympterm="terminator -l ymp&exit" " ~/.bashrc`
 
 ## trouble shoot
 ### 画面の解像度がおかしい！  
 ディスプレイの倍率を確認しよう．2.24になってる可能性がある．
 
 ### フォントサイズが大きい  
-"unity tweek tool"をインストールし，フォントサイズを変更
+"unity tweak tool"をインストールし，フォントサイズを変更
 
 
