@@ -84,6 +84,8 @@ sudo apt-get install python-rosinstall
 ```
 以上
 
+## PCL1.8
+https://github.com/hsean/Capstone-44-Object-Segmentation/wiki/PCL-1.8:-Ubuntu-14.04-Installation-Guide
 ## git
 ```
 sudo apt install git-core
